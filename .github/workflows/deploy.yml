@@ -21,4 +21,4 @@ jobs:
 
       - name: Build with Maven
         working-directory: OnlineFlightTicketBookingSystemphnai
-        run: ./mvnw clean package -DskipTests
+        run: mvn clean package -DskipTests
