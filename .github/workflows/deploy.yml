@@ -20,5 +20,5 @@ jobs:
           distribution: 'temurin'
 
       - name: Build with Maven
-        working-directory: OnlineFlightTicketBookingSystemphnai/OnlineFlightTicketBookingSystemphnai
+        working-directory: OnlineFlightTicketBookingSystemphnai
         run: mvn clean package -DskipTests
